@@ -5,7 +5,7 @@ print("student mark list")
 print("______________")
 no1=int(input("Enter the python mark:"))
 no2=int(input("Enter the DBMS mark:"))
-no3=int(input("Enter the indudtry mark:"))
+no3=int(input("Enter the industry mark:"))
 totalmark=no1+no2+no3
 print("total mark:",totalmark)
 Average=totalmark/3
@@ -22,3 +22,4 @@ elif (totalmark>=150):
     print("grade:A grade")
 else:
     print ("grade:B grade")
+
